@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackound"
+    tools:context="com.example.administrator.chenwei.MainActivity">
+
+        <EditText
+            android:id="@+id/ma_edt"
+            android:layout_width="248dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_background"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:hint="手机号或参会号"
+            android:layout_above="@+id/main_btn"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="number"
+          />
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_backoung"
+        android:text="提交"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
